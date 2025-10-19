@@ -93,7 +93,7 @@ const TodoListPage = () => {
     return (
         <div style={styles.pageBox}>
             <header>
-                <h1 style={styles.title}>Your Todo List</h1>
+                <h1 style={styles.title}>Balu's Todo List</h1>
                 <p style={styles.subtitle}>Signed in as {user?.email}</p>
             </header>
 
