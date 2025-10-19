@@ -100,7 +100,7 @@ const TodoListPage = () => {
             {todosError && <div style={styles.errorBox}>{todosError}</div>}
 
             <div style={styles.addTodoContainer}>
-                <input type="text" value={newTodo} onChange={(e) => setNewTodo(e.target.value)} onKeyPress={(e) => e.key === 'Enter' && handleAddTodo()} placeholder="What needs to be done?" style={styles.inputField} />
+                <input type="text" value={newTodo} onChange={(e) => setNewTodo(e.target.value)} onKeyPress={(e) => e.key === 'Enter' && handleAddTodo()} placeholder="Hi there, what do you need to do?" style={styles.inputField} />
                 <button onClick={handleAddTodo} style={styles.addButton}><Plus size={24} /></button>
             </div>
 
